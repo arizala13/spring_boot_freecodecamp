@@ -1,1 +1,1 @@
-Tutorial of Springt g Boot from freecodecamp Youtube
+Tutorial of Spring Boot from freecodecamp Youtube
