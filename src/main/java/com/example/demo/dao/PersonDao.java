@@ -12,8 +12,8 @@ public interface PersonDao {
     int insertPerson(UUID id, Person person);
 
     // allows us to generate IDs
-    default int insertPerson(Person perosn) {
+    default int insertPerson(Person person) {
         UUID id = UUID.randomUUID();
-        return insertPerson(id, perosn);
+        return insertPerson(id, person);
     }
 }
